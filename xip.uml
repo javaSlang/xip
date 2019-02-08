@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="228.0" y="235.0">com.xip.impl.XipGrayScaleImageImpl</node>
+    <node x="12.0" y="0.0">com.xip.iface.XipFileEventProcessing</node>
+    <node x="157.0" y="310.0">com.xip.XipApp</node>
+    <node x="0.0" y="235.0">com.xip.impl.XipPublishingSessionImpl</node>
+    <node x="240.0" y="155.0">com.xip.iface.XipGrayScaleImage</node>
+    <node x="0.0" y="390.0">com.xip.impl.XipPostImpl</node>
+    <node x="12.0" y="310.0">com.xip.iface.XipPost</node>
+    <node x="12.0" y="155.0">com.xip.iface.XipPublishingSession</node>
+    <node x="0.0" y="80.0">com.xip.impl.XipFileEventProcessingImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xip.impl.XipGrayScaleImageImpl" target="com.xip.iface.XipGrayScaleImage">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.xip.impl.XipPublishingSessionImpl" target="com.xip.iface.XipPublishingSession">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.xip.impl.XipFileEventProcessingImpl" target="com.xip.iface.XipFileEventProcessing">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.xip.impl.XipPostImpl" target="com.xip.iface.XipPost">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
