@@ -1,2 +1,2 @@
 # xip
-XeniaInstaPublishing: tool for automated publishing for Instagram
+XeniaInstaPublishing: tool for automated Instagram publishing
