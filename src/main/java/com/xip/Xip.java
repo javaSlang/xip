@@ -6,11 +6,11 @@ import com.xip.impl.XipPublishingSessionImpl;
 
 import java.io.IOException;
 
-public class XipAppImpl implements XipApp {
+public class Xip implements XipApp {
 
     private final XipPublishingSession publishingSession;
 
-    public XipAppImpl(String[] args) throws IOException {
+    public Xip(String[] args) throws IOException {
         if (args.length != 3) {
             throw new IllegalArgumentException(
                     "Failed to run :: the app requires exactly 3 args :: login, password, key tag :: but actually passed " + args.length + " args.");
@@ -24,6 +24,6 @@ public class XipAppImpl implements XipApp {
     }
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        new XipAppImpl(args).run();
+        new Xip(args).run();
     }
 }

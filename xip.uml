@@ -3,15 +3,16 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="541.0" y="113.0">com.xip.impl.XipGrayScaleImageImpl</node>
-    <node x="352.99999999999994" y="113.0">com.xip.iface.XipFileEventProcessing</node>
-    <node x="329.74999999999994" y="452.0">com.xip.XipApp</node>
-    <node x="321.24999999999994" y="350.0">com.xip.impl.XipPublishingSessionImpl</node>
-    <node x="553.0" y="0.0">com.xip.iface.XipGrayScaleImage</node>
-    <node x="114.99999999999994" y="102.0">com.xip.impl.XipPostImpl</node>
-    <node x="154.49999999999994" y="0.0">com.xip.iface.XipPost</node>
-    <node x="0.0" y="237.0">com.xip.iface.XipPublishingSession</node>
-    <node x="392.1583333333333" y="226.0">com.xip.impl.XipFileEventProcessingImpl</node>
+    <node x="0.0" y="544.0">com.xip.impl.XipGrayScaleImageImpl</node>
+    <node x="276.0" y="0.0">com.xip.iface.XipFileEventProcessing</node>
+    <node x="24.5" y="221.0">com.xip.iface.XipApp</node>
+    <node x="211.0" y="323.0">com.xip.impl.XipPublishingSessionImpl</node>
+    <node x="12.0" y="442.0">com.xip.iface.XipGrayScaleImage</node>
+    <node x="0.0" y="323.0">com.xip.XipAppImpl</node>
+    <node x="0.0" y="102.0">com.xip.impl.XipPostImpl</node>
+    <node x="39.5" y="0.0">com.xip.iface.XipPost</node>
+    <node x="223.0" y="221.0">com.xip.iface.XipPublishingSession</node>
+    <node x="263.0" y="102.0">com.xip.impl.XipFileEventProcessingImpl</node>
   </nodes>
   <notes />
   <edges>
@@ -19,72 +20,24 @@
       <point x="0.0" y="-26.0" />
       <point x="0.0" y="26.0" />
     </edge>
-    <edge source="com.xip.impl.XipFileEventProcessingImpl" target="com.xip.impl.XipPublishingSessionImpl">
-      <point x="48.500000000000014" y="37.0" />
-      <point x="537.6583333333333" y="320.0" />
-      <point x="449.34999999999997" y="320.0" />
-      <point x="36.60000000000002" y="-26.0" />
-    </edge>
     <edge source="com.xip.impl.XipPublishingSessionImpl" target="com.xip.iface.XipPublishingSession">
-      <point x="-73.19999999999993" y="-26.0" />
-      <point x="339.55" y="330.0" />
-      <point x="79.5" y="330.0" />
-      <point x="0.0" y="26.0" />
-    </edge>
-    <edge source="com.xip.XipApp" target="com.xip.impl.XipPublishingSessionImpl">
       <point x="0.0" y="-26.0" />
       <point x="0.0" y="26.0" />
-    </edge>
-    <edge source="com.xip.impl.XipGrayScaleImageImpl" target="com.xip.impl.XipFileEventProcessingImpl">
-      <point x="0.0" y="26.0" />
-      <point x="628.5" y="206.0" />
-      <point x="561.9083333333333" y="206.0" />
-      <point x="72.75000000000001" y="-37.0" />
-    </edge>
-    <edge source="com.xip.impl.XipFileEventProcessingImpl" target="com.xip.impl.XipGrayScaleImageImpl">
-      <point x="24.25" y="-37.0" />
-      <point x="513.4083333333333" y="196.0" />
-      <point x="570.1666666666666" y="196.0" />
-      <point x="-58.333333333333314" y="26.0" />
-    </edge>
-    <edge source="com.xip.impl.XipPublishingSessionImpl" target="com.xip.impl.XipFileEventProcessingImpl">
-      <point x="0.0" y="-26.0" />
-      <point x="412.74999999999994" y="330.0" />
-      <point x="440.6583333333333" y="330.0" />
-      <point x="-48.5" y="37.0" />
-    </edge>
-    <edge source="com.xip.impl.XipPostImpl" target="com.xip.impl.XipPublishingSessionImpl">
-      <point x="-54.5" y="37.0" />
-      <point x="169.49999999999994" y="320.0" />
-      <point x="376.15" y="320.0" />
-      <point x="-36.599999999999966" y="-26.0" />
     </edge>
     <edge source="com.xip.impl.XipFileEventProcessingImpl" target="com.xip.iface.XipFileEventProcessing">
-      <point x="-24.25" y="-37.0" />
-      <point x="464.9083333333333" y="206.0" />
-      <point x="436.99999999999994" y="206.0" />
+      <point x="0.0" y="-37.0" />
       <point x="0.0" y="26.0" />
-    </edge>
-    <edge source="com.xip.impl.XipFileEventProcessingImpl" target="com.xip.impl.XipPostImpl">
-      <point x="-72.75" y="-37.0" />
-      <point x="416.4083333333333" y="206.0" />
-      <point x="278.49999999999994" y="206.0" />
-      <point x="54.5" y="37.0" />
-    </edge>
-    <edge source="com.xip.impl.XipGrayScaleImageImpl" target="com.xip.impl.XipPublishingSessionImpl">
-      <point x="58.33333333333337" y="26.0" />
-      <point x="686.8333333333333" y="206.0" />
-      <point x="656.8" y="206.0" />
-      <point x="656.8" y="330.0" />
-      <point x="485.94999999999993" y="330.0" />
-      <point x="73.19999999999999" y="-26.0" />
     </edge>
     <edge source="com.xip.impl.XipPostImpl" target="com.xip.iface.XipPost">
       <point x="0.0" y="-37.0" />
       <point x="0.0" y="26.0" />
     </edge>
+    <edge source="com.xip.XipAppImpl" target="com.xip.iface.XipApp">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="196.0" y="223.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="358.0" y="241.5" />
   <SelectedNodes>
     <node>com.xip.impl.XipPublishingSessionImpl</node>
   </SelectedNodes>
